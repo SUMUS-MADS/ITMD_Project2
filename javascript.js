@@ -21,7 +21,7 @@ function add_row(add_drop){
   element1.type = "checkbox";
   element1.name="chkbox[]";
   cell1.appendChild(element1);
-  //ell 2
+  //cell 2
   var cell2 = row.insertCell(1);
   var cell3 = row.insertCell(2);
   var element2 = document.createElement("input");
