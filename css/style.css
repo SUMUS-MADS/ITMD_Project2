@@ -238,3 +238,9 @@ font-size: 2.5em;
   opacity: 0;
   transition: all 0.5s ease-out;
 }
+
+/*Mobile-First response*/
+@media screen and (min-width: 320px) {
+
+}
+
