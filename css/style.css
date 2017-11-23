@@ -18,6 +18,8 @@ html, body {
 body {
   background: url(../images/slide-crown-hall.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;	
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,13 +297,12 @@ h1 {
 	font-size: 1em;
 }
 
-.boxed-text {
+h2 {
 	font-size: 0.8em;
 }
 
-.sidebar-menu {
-	font-size: 1.8em;
-	text-align: center;
+.navbar {
+	font-size: 2em;
 }
 
 
@@ -314,9 +315,7 @@ h1 {
   
   body {
   	background: url(../images/slide-crown-hall.jpg) fixed;
-  	background-repeat: no-repeat;	
 		background-size: cover;
-		background-position: center;
   }
   
 	form {
@@ -341,14 +340,14 @@ h1 {
 	}
 	
 	form .help {
-	font-size: 0.65em;
+		font-size: 0.65em;
   }
   
-
-.sidebar-menu {
-	font-size: 1em;
-	text-align: center;
-	margin: auto;
+  h2 {
+  	font-size: 1.5em;
+  }
+	.navbar {
+		font-size: 0.75em;
   }
 
 	
