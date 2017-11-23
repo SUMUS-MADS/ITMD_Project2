@@ -274,6 +274,32 @@ form .help {
 	padding: 0.5em;
 }
 
+.box {
+	/*height: 11em;*/
+	font-size: 2em;
+	text-align: center;
+	/*width: 22.5em;*/
+	flex-wrap: wrap;
+}
+
+.box input {
+	font-size: 0.5em;
+}
+
+#classes {
+	font-size: 0.75em;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+
+
+}
+
+
 /*Desktop Response*/
 @media (min-width: 960px) {
   
@@ -283,6 +309,7 @@ form .help {
 		background-size: cover;
 		background-position: center;
   }
+  
 	form {
 		width: 25%;
 		height: 50%;
@@ -308,9 +335,8 @@ form .help {
 	font-size: 0.65em;
   }
 	
-	
 }
-}
+
 
 
 
