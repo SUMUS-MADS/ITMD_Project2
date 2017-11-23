@@ -243,9 +243,16 @@ font-size: 2.5em;
 
 form {
 	width: 100%;
+	background: rgb(240, 240, 240);
+  opacity: .95;
+  max-width: 95%;
+  min-width: 60%;
+  border: .25em solid rgb(190, 184, 184);
+  padding: 1em;
+  margin: 1em;
 }
 form label {
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 form input {
@@ -253,11 +260,15 @@ form input {
 }
 
 form button {
-	font-size: 2em;
+	font-size: 1.8em;
 }
 
 form header {
-	font-size: 2em;
+	font-size: 1.8em;
+}
+
+form .help {
+	font-size: 0.8em;
 }
 
 }
