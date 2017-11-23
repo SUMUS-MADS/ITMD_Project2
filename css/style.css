@@ -25,18 +25,35 @@ h1 {
 	border-color: black;
 	background-color: lightgray;
 	color: black;
+	
 }
 
 body {
   background: url(../images/slide-crown-hall.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;	
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Spectral SC', Times, serif;
   font-size: 1.0em;
+}
+
+h1 {
+	font-family: "Lucida Sans Typewriter", serif;
+	font-size: 2.441em;
+	/* 43.945px @ 18px em */
+	line-height: 1.536em;
+	/* 67.5px @ 43.945px em */
+	padding-bottom: 0.512em;
+	/* 22.5px @ 43.945px em */
+	text-align: center;
+	margin-bottom: 0.5919em;
+	border: .2959em double;
+	border-radius: .2959em;
+	border-color: black;
+	background-color: lightgray;
+	color: black;
+  
 }
 
 form {
@@ -55,7 +72,7 @@ form header {
   font-weight: 600;
 }
 form label {
- /* margin-left: 1em;*/
+  margin-left: 1em;
   display: inline-block;
   margin-top: 1em;
   margin-bottom: .25em;
@@ -74,7 +91,7 @@ form input {
   border: 1px solid rgb(0, 0, 0);
 }
 form .help {
-  /*margin-left: 1.2em;*/
+  margin-left: 1.2em;
   font-size: 0.75em;
   color: rgb(172, 1, 1);
 }
@@ -386,7 +403,3 @@ h2 {
 
 	
 }
-
-
-
-
