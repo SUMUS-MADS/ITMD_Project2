@@ -258,7 +258,7 @@ form input {
 	width: 90%;
 	font-size: 3em;
 	margin: auto;
-	margin-left: none;
+	margin-left: 0em;
 }
 
 form button {
@@ -295,13 +295,22 @@ h1 {
 	font-size: 1em;
 }
 
+.boxed-text {
+	font-size: 0.8em;
+}
+
+.sidebar-menu {
+	font-size: 1.8em;
+	text-align: center;
+}
+
 
 
 }
 
 
 /*Desktop Response*/
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
   
   body {
   	background: url(../images/slide-crown-hall.jpg) fixed;
@@ -334,6 +343,14 @@ h1 {
 	form .help {
 	font-size: 0.65em;
   }
+  
+
+.sidebar-menu {
+	font-size: 1em;
+	text-align: center;
+	margin: auto;
+  }
+
 	
 }
 
