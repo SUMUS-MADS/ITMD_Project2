@@ -253,18 +253,18 @@ form {
   margin: 1em;
 }
 form label {
-	font-size: 3.5em;
+	font-size: 2em;
 }
 
 form input {
 	width: 90%;
-	font-size: 3em;
+	font-size: 2em;
 	margin: auto;
 	margin-left: 0em;
 }
 
 form button {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 form header {
@@ -272,7 +272,7 @@ form header {
 }
 
 form .help {
-	font-size: 2em;
+	font-size: 1em;
 	padding: 0.5em;
 }
 
@@ -294,18 +294,25 @@ form .help {
 }
 
 h1 {
-	font-size: 1em;
+	font-size: 0.75em;
 }
 
 h2 {
-	font-size: 0.8em;
+	font-size: 0.75em;
+}
+
+.boxed-text {
+	margin-top: 5em;
 }
 
 .navbar {
-	font-size: 2em;
+	margin-top: 3em;
+	padding-left: 0.5em;
 }
 
-
+.navbar-options {
+	font-size: 0.75em;
+}
 
 }
 
@@ -326,7 +333,7 @@ h2 {
 	}
 	
 	form label {
-		font-size: 1.5em;
+		font-size: 1.25em;
 	}
 	
 	form input {
@@ -343,11 +350,25 @@ h2 {
 		font-size: 0.65em;
   }
   
-  h2 {
-  	font-size: 1.5em;
+  h1 {
+  	font-size: 1em;
   }
-	.navbar {
-		font-size: 0.75em;
+  
+  h2 {
+  	font-size: 1.25em;
+  }
+  
+  .boxed-text {
+  	margin-top: 3em;
+  }
+  
+	.navbar-options {
+		font-size: 1.10em;
+		margin-left: 2em;
+  }
+  
+  #classes {
+  	font-size: 0.5em;
   }
 
 	
