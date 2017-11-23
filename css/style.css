@@ -13,7 +13,6 @@ html, body {
 #logo {
     margin: 0 auto;
       width: 90%;
-
 }
 
 body {
@@ -242,12 +241,23 @@ font-size: 2.5em;
 /*Mobile-First response*/
 @media screen and (max-width: 450px) {
 
+form {
+	width: 100%;
+}
 form label {
 	font-size: 2em;
 }
 
 form input {
-	width: 150%;
+	width: 80%;
+}
+
+form button {
+	font-size: 2em;
+}
+
+form header {
+	font-size: 2em;
 }
 
 }
