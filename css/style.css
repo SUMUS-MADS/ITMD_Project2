@@ -239,6 +239,7 @@ font-size: 2.5em;
 }
 
 /*Mobile-First response*/
+/*Tablet screen response*/
 @media screen and (min-width: 320px) {
 
 form {
@@ -273,10 +274,20 @@ form .help {
 	padding: 0.5em;
 }
 
+/*Desktop Response*/
 @media (min-width: 960px) {
-
+  
+  body {
+  	background: url(../images/slide-crown-hall.jpg) fixed;
+  	background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
+  }
 	form {
 		width: 25%;
+		height: 50%;
+		margin-top: 8%;
+		margin-bottom: 3%;
 	}
 	
 	form label {
@@ -287,10 +298,10 @@ form .help {
 		font-size: 1em;
 	}
 	form button {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	form header {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	
 	form .help {
