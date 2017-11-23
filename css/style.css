@@ -41,7 +41,7 @@ form header {
   font-weight: 600;
 }
 form label {
-  margin-left: 1em;
+ /* margin-left: 1em;*/
   display: inline-block;
   margin-top: 1em;
   margin-bottom: .25em;
@@ -52,14 +52,14 @@ form input {
   display: block;
   position: relative;
   width: 90%;
-  margin-left: 1em;
+  /*margin-left: 1em;*/
   padding: .5em .5em;
   font-size: 1em;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0);
 }
 form .help {
-  margin-left: 1.2em;
+  /*margin-left: 1.2em;*/
   font-size: 0.75em;
   color: rgb(172, 1, 1);
 }
@@ -239,10 +239,10 @@ font-size: 2.5em;
 }
 
 /*Mobile-First response*/
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 320px) {
 
 form {
-	width: 100%;
+	width: 80%;
 	background: rgb(240, 240, 240);
   opacity: .95;
   max-width: 95%;
@@ -252,15 +252,18 @@ form {
   margin: 1em;
 }
 form label {
-	font-size: 1.8em;
+	font-size: 3.5em;
 }
 
 form input {
-	width: 80%;
+	width: 90%;
+	font-size: 3em;
+	margin: auto;
+	margin-left: none;
 }
 
 form button {
-	font-size: 1.8em;
+	font-size: 3em;
 }
 
 form header {
@@ -268,8 +271,12 @@ form header {
 }
 
 form .help {
-	font-size: 0.8em;
+	font-size: 2em;
+	padding: 0.5em;
 }
 
+
 }
+
+
 
