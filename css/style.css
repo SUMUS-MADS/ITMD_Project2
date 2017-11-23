@@ -245,8 +245,6 @@ form {
 	width: 80%;
 	background: rgb(240, 240, 240);
   opacity: .95;
-  max-width: 95%;
-  min-width: 60%;
   border: .25em solid rgb(190, 184, 184);
   padding: 1em;
   margin: 1em;
@@ -275,7 +273,32 @@ form .help {
 	padding: 0.5em;
 }
 
+@media (min-width: 960px) {
 
+	form {
+		width: 25%;
+	}
+	
+	form label {
+		font-size: 1.5em;
+	}
+	
+	form input {
+		font-size: 1em;
+	}
+	form button {
+		font-size: 1.5em;
+	}
+	form header {
+		font-size: 1.5em;
+	}
+	
+	form .help {
+	font-size: 0.65em;
+  }
+	
+	
+}
 }
 
 
