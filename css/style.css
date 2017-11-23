@@ -38,24 +38,6 @@ body {
   font-size: 1.0em;
 }
 
-h1 {
-	font-family: "Lucida Sans Typewriter", serif;
-	font-size: 2.441em;
-	/* 43.945px @ 18px em */
-	line-height: 1.536em;
-	/* 67.5px @ 43.945px em */
-	padding-bottom: 0.512em;
-	/* 22.5px @ 43.945px em */
-	text-align: center;
-	margin-bottom: 0.5919em;
-	border: .2959em double;
-	border-radius: .2959em;
-	border-color: black;
-	background-color: lightgray;
-	color: black;
-  
-}
-
 form {
   background: white;
   max-width: 90%;
