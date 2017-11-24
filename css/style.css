@@ -130,7 +130,7 @@ a { color: inherit; }
   left:0;
   width: 25%;
   transform: translate(-100%, 0);
-  overflow: hidden;
+  overflow: scroll;
   height: 100vh;
   max-height: 100vh;
   background: black;
