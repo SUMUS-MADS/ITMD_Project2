@@ -286,13 +286,13 @@ form .help {
 }
 
 .box {
-   margin-top: 6em;
+   margin-top: 4em;
 	/*height: 11em;*/
 	font-size: 2em;
 	text-align: center;
 	/*width: 22.5em;*/
 	flex-wrap: wrap;
-	margin-bottom: 7em;
+	margin-bottom: 12em;
 }
 
 .box input {
@@ -300,12 +300,12 @@ form .help {
 }
 
 #classes {
-	font-size: 0.75em;
+	font-size: 0.4em;
 	width: 100%;
 }
 
 h1 {
-	font-size: 0.75em;
+	font-size: 0.5em;
 	padding-bottom: 0.1em;
 }
 
