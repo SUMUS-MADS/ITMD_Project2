@@ -11,13 +11,13 @@ class was prevalent because I achieved greater flexibility between HTML
 structure and CSS design, while also learning behavioral aspects of JavaScript.
 Both the project and course proved to be a valuable learning experience.
 
-Group Member Contributions:
+**Group Member Contributions:**
 
 My group consists of four people, who all play their own role in the project.
 Suhail A., is our group leader and manager of commits and webpage structure.
 Hernandez M., is the group behavioralist, who carried out JavaScript responsibility.
 Shazard S. is the group structuralist and reviewer; always encouraging the team to 
 communicate and stay positive. Komarov, D. is the group architect, who is responsible
-for webpage components, layout, and appearance across devices.
+for webpage components, layout, and appearance across devices. 
 
 
