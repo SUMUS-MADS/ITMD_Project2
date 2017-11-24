@@ -1,17 +1,17 @@
 function emptyFields() {
-    var x = document.forms["login"]["username"].value;
-    var y = document.forms["login"]["password"].value;
-    if (x == "") {
-        alert("Username required");
-        return false;
-    }
-    if (y == "") {
-        alert("Password required");
-        return false;
-    }
+	var x = document.forms["login"]["username"].value;
+	var y = document.forms["login"]["password"].value;
+	if (x == "") {
+  	alert("Username required");
+    return false;
+   }
+   if (y == "") {
+  	 alert("Password required");
+  		return false;
+  	}
 }
 
-function add_row(add_drop){
+function add_row(add_drop) {
   var table = document.getElementById(add_drop);
   var rowCount = table.rows.length;
   var row = table.insertRow(rowCount);
@@ -38,19 +38,19 @@ function add_row(add_drop){
 }
 
 function delete_row(add_drop) {
-try {
-  var table = document.getElementById(add_drop);
-  var rowCount = table.rows.length;
-for(var i=0; i<rowCount; i++) {
-  var row = table.rows[i];
-  var chkbox = row.cells[0].childNodes[0];
-if(null != chkbox && true == chkbox.checked) {
-  table.deleteRow(i);
-  rowCount--;
-  i--;
+	try {
+  	var table = document.getElementById(add_drop);
+  	var rowCount = table.rows.length;
+	for(var i=0; i<rowCount; i++) {
+  	var row = table.rows[i];
+  	var chkbox = row.cells[0].childNodes[0];
+	if(null != chkbox && true == chkbox.checked) {
+  	table.deleteRow(i);
+  	rowCount--;
+  	i--;
     }
-  }
-}catch(e) {
+}
+}	catch(e) {
     alert(e);
   }
 }
