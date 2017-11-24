@@ -326,7 +326,8 @@ h2 {
 }
 
 .navbar-options {
-	font-size: 0.75em;
+	font-size: 0.60em;
+	padding-bottom: 0em;
 }
 
 input chk {
