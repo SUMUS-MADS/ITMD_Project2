@@ -41,9 +41,8 @@ body {
 
 form {
   background: white;
-  width: 100%;
   font-family: 'Spectral SC', Times, serif;
-  position: relative;
+  position: center;
   color: rgb(0, 0, 0);
 }
 form header {
@@ -255,7 +254,7 @@ font-size: 2.5em;
 @media screen and (min-width: 320px) {
 
 form {
-	width: 80%;
+	width: 100%;
 	background: rgb(240, 240, 240);
   opacity: .95;
   border: .25em solid rgb(190, 184, 184);
@@ -287,11 +286,13 @@ form .help {
 }
 
 .box {
+   margin-top: 6em;
 	/*height: 11em;*/
 	font-size: 2em;
 	text-align: center;
 	/*width: 22.5em;*/
 	flex-wrap: wrap;
+	margin-bottom: 7em;
 }
 
 .box input {
@@ -305,6 +306,7 @@ form .help {
 
 h1 {
 	font-size: 0.75em;
+	padding-bottom: 0.1em;
 }
 
 h2 {
