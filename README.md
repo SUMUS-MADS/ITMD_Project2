@@ -5,4 +5,4 @@ This project needed alot of work and attention from the group. Overall as a grou
 
 Group Member Contributions:
 
-Shan did a very good job with our logo and was the main leader of the group. Denis did a good job making sure our webpage components, layout, and appearance worked correctly across differetn devices. Abdullah took charge of our commits and made sure the webpage was very well structure and where we wanted it to be. 
+Shan did a very good job with our logo and was the main leader of the group. Denis did a good job making sure our webpage components, layout, and appearance worked correctly across different devices. Abdullah took charge of our commits and made sure the webpage was very well structure and where we wanted it to be. 
