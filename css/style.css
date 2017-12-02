@@ -695,6 +695,14 @@ font-size: 2.5em;
 
 @media only screen and (min-width: 320px) and (max-width: 480px) 
 {
+  body{
+    overflow: scroll;
+  }
+
+  .sidebar-menu{
+    overflow: scroll;
+    width: 100%; 
+  }
   
   form {
     width: 100%;
@@ -704,6 +712,7 @@ font-size: 2.5em;
     padding: 1em;
     margin-bottom: 2em;
     margin: 1.2em;
+    overflow: scroll;
   }
   form label {
     font-size: 2em;
@@ -767,6 +776,7 @@ font-size: 2.5em;
   .navbar {
     margin-top: 3em;
     padding-left: 0.5em;
+    overflow: scroll;
   }
   
   .navbar-options {
@@ -788,14 +798,19 @@ font-size: 2.5em;
     body {
       background: url(../images/slide-crown-hall.jpg) fixed;
       background-size: cover;
+      overflow: scroll;
     }
-    
+    .sidebar-menu{
+      overflow: scroll;
+      width: 100%; 
+    }
     form {
      
       width: 25%;
       height: 35%;
       margin-top: 10%;
       margin-bottom: 3%;
+      overflow: scroll;
     }
     
     form label {
@@ -828,6 +843,10 @@ font-size: 2.5em;
       margin-top: 3em;
     }
     
+    .navbar
+    {
+      overflow: scroll;
+    }
     .navbar-options {
       font-size: 1.10em;
       margin-left: 2em;
