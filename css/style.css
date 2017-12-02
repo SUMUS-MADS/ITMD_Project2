@@ -692,3 +692,150 @@ font-size: 2.5em;
   transition: all 0.5s ease-out;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 480px) 
+{
+  
+  form {
+    width: 100%;
+    background: rgb(240, 240, 240);
+    opacity: .95;
+    border: .25em solid rgb(190, 184, 184);
+    padding: 1em;
+    margin-bottom: 2em;
+    margin: 1.2em;
+  }
+  form label {
+    font-size: 2em;
+  }
+  
+  form input {
+    width: 90%;
+    font-size: 2em;
+    margin: auto;
+    margin-left: 0em;
+  }
+  
+  form button {
+    font-size: 2em;
+  }
+  
+  form header {
+    font-size: 1.8em;
+  }
+  
+  form .help {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  .box {
+     margin-top: 6em;
+    /*height: 11em;*/
+    font-size: 2em;
+    text-align: center;
+    /*width: 22.5em;*/
+    flex-wrap: wrap;
+    margin-bottom: 12em;
+    padding: 0.5em;
+    padding-top: 0em;
+  }
+  
+  .box input {
+    font-size: 0.5em;
+  }
+  
+  #classes {
+    padding-left: 0em;
+    font-size: 0.3em;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 0.5em;
+    padding-bottom: 0.1em;
+  }
+  
+  h2 {
+    font-size: 0.75em;
+  }
+  
+  .boxed-text {
+    margin-top: 5em;
+  }
+  
+  .navbar {
+    margin-top: 3em;
+    padding-left: 0.5em;
+  }
+  
+  .navbar-options {
+    font-size: 0.60em;
+    padding-bottom: 0em;
+  }
+  
+  input chk {
+    margin-left: 0em;
+  }
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 960px) 
+  {
+    
+    body {
+      background: url(../images/slide-crown-hall.jpg) fixed;
+      background-size: cover;
+    }
+    
+    form {
+     
+      width: 25%;
+      height: 35%;
+      margin-top: 10%;
+      margin-bottom: 3%;
+    }
+    
+    form label {
+      font-size: 1.25em;
+    }
+    
+    form input {
+      font-size: 1em;
+    }
+    form button {
+      font-size: 1em;
+    }
+    form header {
+      font-size: 1em;
+    }
+    
+    form .help {
+      font-size: 0.65em;
+    }
+    
+    h1 {
+      font-size: 1em;
+    }
+    
+    h2 {
+      font-size: 1.25em;
+    }
+    
+    .boxed-text {
+      margin-top: 3em;
+    }
+    
+    .navbar-options {
+      font-size: 1.10em;
+      margin-left: 2em;
+    }
+    
+    #classes {
+      font-size: 0.5em;
+    }
+  
+    
+  }
