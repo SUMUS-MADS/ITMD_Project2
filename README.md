@@ -1,2 +1,2 @@
 # ITMD_Project2
-This is the shared Repository for Project 2 for the SUMUS-MADS group.
+This is the shared Project 2 Repository for the SUMUS-MADS group.
