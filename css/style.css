@@ -167,7 +167,7 @@ font-size: 2.5em;
   text-align: center;
   display: inline-block;
   border: solid .1em;
-  margin-top: 4em;
+  margin-top: 2.5em;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
@@ -196,7 +196,7 @@ font-size: 2.5em;
   justify-content: center;
   text-align: center;
   width: 80%;
-  margin-top: 5.5em;
+  margin-top: 3.0em;
 }
 
 .footer {
