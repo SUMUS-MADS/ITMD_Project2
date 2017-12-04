@@ -1,4 +1,5 @@
 # ITMD_Project2
+<<<<<<< HEAD
 This is Denis Komarov's forked shared Repository for Project 2 for the SUMUS-MADS group.
 
 **My Project & Progress:**
@@ -21,3 +22,6 @@ communicate and stay positive. Komarov, D. is the group architect, who is respon
 for webpage components, layout, and appearance across devices. 
 
 
+=======
+This is the shared Project 2 Repository for the SUMUS-MADS group.
+>>>>>>> SUMUS-MADS/master

@@ -9,29 +9,25 @@ html, body {
   margin: 0;
 }
 
-h1 {
-	font-family: "Lucida Sans Typewriter", serif;
-	font-size: 2.441em;
-	/* 43.945px @ 18px em */
-	line-height: 1.536em;
-	/* 67.5px @ 43.945px em */
-	padding-bottom: 5.512em;
-	/* 22.5px @ 43.945px em */
-	text-align: center;
-	margin-bottom: 0.5919em;
-	border: .2959em double;
-	border-radius: .2959em;
-	border-color: black;
-	background-color: lightgray;
-	color: black;
-	
+#logo {
+    margin: 0 auto;
+      width: 90%;
+
 }
 
 body {
+<<<<<<< HEAD
   background: url(../images/slide-crown-hall.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+=======
+  background-position: center center;
+  background: url(../images/slide-crown-hall.jpg) fixed;
+  background-size: cover;
+  background-repeat: no-repeat;	
+  background-position: center;
+>>>>>>> SUMUS-MADS/master
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,21 +36,30 @@ body {
 }
 
 form {
+<<<<<<< HEAD
   background: white;
+=======
+  background: rgb(240, 240, 240);
+  opacity: .85;
+  border: .25em solid rgb(190, 184, 184);
+  max-width: 90%;
+  min-width: 25%;
+>>>>>>> SUMUS-MADS/master
   font-family: 'Spectral SC', Times, serif;
   position: center;
   color: rgb(0, 0, 0);
+  padding: 1em;
 }
 form header {
   background: rgb(172, 1, 1);
   padding: .5em .5em;
   color: rgb(0, 0, 0);
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 form label {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 1.35em;
   margin-bottom: .25em;
   position: relative;
 }
@@ -64,15 +69,16 @@ form input {
   position: relative;
   min-width: 85%;
   max-width: 90%;
-  margin-left: 1em;
   padding: .5em .5em;
-  font-size: 1em;
+  font-size: 1.25em;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0);
 }
 form .help {
   font-size: 0.75em;
+  font-weight: bold;
   color: rgb(172, 1, 1);
+  padding: 0.5em;
 }
 form button {
   position: relative;
@@ -96,6 +102,8 @@ form button:hover {
 
 a { color: inherit; }
 
+header { text-align: center; }
+
 .box{
   background: rgb(240, 240, 240);
   opacity: .95;
@@ -104,6 +112,7 @@ a { color: inherit; }
   border: .25em solid rgb(190, 184, 184);
   padding: 1em;
   margin: 1em;
+  text-align: center;
 }
 
 .menu-button{
@@ -169,7 +178,7 @@ font-size: 2.5em;
   text-align: center;
   display: inline-block;
   border: solid .1em;
-  margin-top: 4em;
+  margin-top: 2.5em;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
@@ -198,7 +207,7 @@ font-size: 2.5em;
   justify-content: center;
   text-align: center;
   width: 80%;
-  margin-top: 5.5em;
+  margin-top: 3.0em;
 }
 
 .footer {
@@ -226,7 +235,7 @@ font-size: 2.5em;
   padding: .8em 0;
   transition: all 0.5s ease-out;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.20em;
   font-weight: 900;
 }
 
@@ -249,6 +258,7 @@ font-size: 2.5em;
   transition: all 0.5s ease-out;
 }
 
+<<<<<<< HEAD
 /*Mobile-First response*/
 /*Tablet screen response*/
 @media screen and (min-width: 320px) {
@@ -393,3 +403,165 @@ input chk {
 
 	
 }
+=======
+
+@media only screen and (min-width: 320px) and (max-width: 560px) 
+{
+  body{
+    overflow: scroll;
+  }
+
+  .sidebar-menu{
+    overflow: scroll;
+  }
+  
+  form {
+    width: 100%;
+    margin-bottom: 5em;
+    margin: 1.5em;
+    overflow: scroll;
+  }
+  form label {
+    font-size: 1.5em;
+  }
+  
+  form input {
+    width: 90%;
+    font-size: 1.5em;
+    margin: auto;
+    margin-left: 0em;
+  }
+  
+  form button {
+    font-size: 1.60em;
+  }
+  
+  form header {
+    font-size: 1.60em;
+  }
+  
+  form .help {
+    font-size: 0.70em;
+  }
+  
+  .box {
+     margin-top: 10em;
+    /*height: 11em;*/
+    font-size: 2.0em;
+    text-align: center;
+    /*width: 22.5em;*/
+    flex-wrap: wrap;
+    margin-bottom: 12em;
+    padding: 0.5em;
+    padding-top: 0em;
+    overflow: scroll;
+  }
+  
+  .box input {
+    font-size: 0.5em;
+  }
+  
+  #classes {
+    padding-left: 0em;
+    font-size: 0.5em;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 0.75em;
+    padding-bottom: 0.1em;
+  }
+  
+  h2 {
+    font-size: 0.65em;
+  }
+  
+  .boxed-text {
+    margin-top: 7em;
+  }
+  
+  .navbar {
+    margin-top: 3em;
+    padding-left: 0.5em;
+    overflow: scroll;
+  }
+  
+  .navbar-options {
+    font-size: 0.80em;
+    padding-bottom: 0em;
+  }
+  
+  input chk {
+    margin-left: 0em;
+  }
+  
+  }
+  
+  
+  
+  @media only screen and (min-width: 560px) and (max-width: 1024px) 
+  {
+    
+    body {
+      background: url(../images/slide-crown-hall.jpg) fixed;
+      background-size: cover;
+      overflow: scroll;
+    }
+    .sidebar-menu{
+      overflow: scroll;
+    }
+    form {
+      overflow: scroll;
+    }
+  
+    form label {
+      font-size: 2.50em;
+    }
+    
+    form input {
+      font-size: 2.50em;
+    }
+    form button {
+      font-size: 2.50em;
+    }
+    form header {
+      font-size: 2.50em;
+    }
+    
+    form .help {
+      font-size: 1.25em;
+    }
+    
+    h1 {
+      font-size: 1em;
+    }
+    
+    h2 {
+      font-size: 1.25em;
+    }
+    
+    .boxed-text {
+      margin-top: 3em;
+    }
+    
+    .navbar
+    {
+      overflow: scroll;
+    }
+    .navbar-options {
+      font-size: 1.50em;
+      text-align: center;
+      margin-right: 1em;
+    }
+    
+    .box {
+    	font-size: 2.5em;
+    }
+    
+    #classes {
+      font-size: 0.5em;
+    }
+  
+    
+  }
+>>>>>>> SUMUS-MADS/master
