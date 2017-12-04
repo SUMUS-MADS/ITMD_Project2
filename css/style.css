@@ -102,6 +102,7 @@ header { text-align: center; }
   border: .25em solid rgb(190, 184, 184);
   padding: 1em;
   margin: 1em;
+  text-align: center;
 }
 
 .menu-button{
@@ -395,6 +396,10 @@ font-size: 2.5em;
       font-size: 1.50em;
       text-align: center;
       margin-right: 1em;
+    }
+    
+    .box {
+    	font-size: 2.5em;
     }
     
     #classes {
