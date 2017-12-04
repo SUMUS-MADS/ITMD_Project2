@@ -66,6 +66,7 @@ form input {
 }
 form .help {
   font-size: 0.75em;
+  font-weight: bold;
   color: rgb(172, 1, 1);
 }
 form button {
