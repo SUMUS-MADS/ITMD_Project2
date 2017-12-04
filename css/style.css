@@ -43,12 +43,12 @@ form header {
   background: rgb(172, 1, 1);
   padding: .5em .5em;
   color: rgb(0, 0, 0);
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 form label {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 1.35em;
   margin-bottom: .25em;
   position: relative;
 }
@@ -59,7 +59,7 @@ form input {
   min-width: 85%;
   max-width: 90%;
   padding: .5em .5em;
-  font-size: 1em;
+  font-size: 1.25em;
   border-radius: 3px;
   border: 1px solid rgb(0, 0, 0);
 }
