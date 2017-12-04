@@ -288,9 +288,9 @@ font-size: 2.5em;
   }
   
   .box {
-     margin-top: 6em;
+     margin-top: 10em;
     /*height: 11em;*/
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     /*width: 22.5em;*/
     flex-wrap: wrap;
