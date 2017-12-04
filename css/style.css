@@ -297,6 +297,7 @@ font-size: 2.5em;
     margin-bottom: 12em;
     padding: 0.5em;
     padding-top: 0em;
+    overflow: scroll;
   }
   
   .box input {
@@ -305,12 +306,12 @@ font-size: 2.5em;
   
   #classes {
     padding-left: 0em;
-    font-size: 0.3em;
+    font-size: 0.5em;
     width: 100%;
   }
   
   h1 {
-    font-size: 0.5em;
+    font-size: 0.75em;
     padding-bottom: 0.1em;
   }
   
