@@ -30,7 +30,9 @@ body {
 }
 
 form {
-  background: white;
+  background: rgb(240, 240, 240);
+  opacity: .95;
+  border: .25em solid rgb(190, 184, 184);
   max-width: 90%;
   min-width: 25%;
   font-family: 'Spectral SC', Times, serif;
@@ -258,9 +260,6 @@ font-size: 2.5em;
   
   form {
     width: 100%;
-    background: rgb(240, 240, 240);
-    opacity: .95;
-    border: .25em solid rgb(190, 184, 184);
     padding: 1em;
     margin-bottom: 2em;
     margin: 1.2em;
