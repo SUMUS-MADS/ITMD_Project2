@@ -38,6 +38,7 @@ form {
   font-family: 'Spectral SC', Times, serif;
   position: relative;
   color: rgb(0, 0, 0);
+  padding: 1em;
 }
 form header {
   background: rgb(172, 1, 1);
@@ -257,7 +258,6 @@ font-size: 2.5em;
   
   form {
     width: 100%;
-    padding: 1em;
     margin-bottom: 2em;
     margin: 1.2em;
     overflow: scroll;
