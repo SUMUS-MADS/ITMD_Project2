@@ -7,7 +7,6 @@ html, body {
   border: 0;
   padding: 0;
   margin: 0;
-  height: 100%;
 }
 
 #logo {
@@ -17,11 +16,18 @@ html, body {
 }
 
 body {
+<<<<<<< HEAD
+  background: url(../images/slide-crown-hall.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+=======
   background-position: center center;
   background: url(../images/slide-crown-hall.jpg) fixed;
   background-size: cover;
   background-repeat: no-repeat;	
   background-position: center;
+>>>>>>> SUMUS-MADS/master
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,13 +36,17 @@ body {
 }
 
 form {
+<<<<<<< HEAD
+  background: white;
+=======
   background: rgb(240, 240, 240);
   opacity: .85;
   border: .25em solid rgb(190, 184, 184);
   max-width: 90%;
   min-width: 25%;
+>>>>>>> SUMUS-MADS/master
   font-family: 'Spectral SC', Times, serif;
-  position: relative;
+  position: center;
   color: rgb(0, 0, 0);
   padding: 1em;
 }
@@ -129,7 +139,7 @@ header { text-align: center; }
   left:0;
   width: 25%;
   transform: translate(-100%, 0);
-  overflow: hidden;
+  overflow: scroll;
   height: 100vh;
   max-height: 100vh;
   background: black;
@@ -248,6 +258,152 @@ font-size: 2.5em;
   transition: all 0.5s ease-out;
 }
 
+<<<<<<< HEAD
+/*Mobile-First response*/
+/*Tablet screen response*/
+@media screen and (min-width: 320px) {
+
+form {
+	width: 100%;
+	background: rgb(240, 240, 240);
+  opacity: .95;
+  border: .25em solid rgb(190, 184, 184);
+  padding: 1em;
+  margin: 1em;
+}
+form label {
+	font-size: 2em;
+}
+
+form input {
+	width: 90%;
+	font-size: 2em;
+	margin: auto;
+	margin-left: 0em;
+}
+
+form button {
+	font-size: 2em;
+}
+
+form header {
+	font-size: 1.8em;
+}
+
+form .help {
+	font-size: 1em;
+	padding: 0.5em;
+}
+
+.box {
+   margin-top: 6em;
+	/*height: 11em;*/
+	font-size: 2em;
+	text-align: center;
+	/*width: 22.5em;*/
+	flex-wrap: wrap;
+	margin-bottom: 12em;
+	padding: 0.5em;
+	padding-top: 0em;
+}
+
+.box input {
+	font-size: 0.5em;
+}
+
+#classes {
+  padding-left: 0em;
+	font-size: 0.3em;
+	width: 100%;
+}
+
+h1 {
+	font-size: 0.5em;
+	padding-bottom: 0.1em;
+}
+
+h2 {
+	font-size: 0.75em;
+}
+
+.boxed-text {
+	margin-top: 5em;
+}
+
+.navbar {
+	margin-top: 3em;
+	padding-left: 0.5em;
+}
+
+.navbar-options {
+	font-size: 0.60em;
+	padding-bottom: 0em;
+}
+
+input chk {
+	margin-left: 0em;
+}
+
+}
+
+
+/*Desktop Response*/
+@media screen and (min-width: 960px) {
+  
+  body {
+  	background: url(../images/slide-crown-hall.jpg) fixed;
+		background-size: cover;
+  }
+  
+	form {
+		width: 25%;
+		height: 50%;
+		margin-top: 8%;
+		margin-bottom: 3%;
+	}
+	
+	form label {
+		font-size: 1.25em;
+	}
+	
+	form input {
+		font-size: 1em;
+	}
+	form button {
+		font-size: 1em;
+	}
+	form header {
+		font-size: 1em;
+	}
+	
+	form .help {
+		font-size: 0.65em;
+  }
+  
+  h1 {
+  	font-size: 1em;
+  }
+  
+  h2 {
+  	font-size: 1.25em;
+  }
+  
+  .boxed-text {
+  	margin-top: 3em;
+  }
+  
+	.navbar-options {
+		font-size: 1.10em;
+		margin-left: 2em;
+  }
+  
+  #classes {
+  	font-size: 0.5em;
+  }
+
+	
+}
+=======
 
 @media only screen and (min-width: 320px) and (max-width: 560px) 
 {
@@ -408,3 +564,4 @@ font-size: 2.5em;
   
     
   }
+>>>>>>> SUMUS-MADS/master
